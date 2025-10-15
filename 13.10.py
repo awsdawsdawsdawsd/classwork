@@ -45,3 +45,52 @@
 #         print("не число")
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# list1 = [1, 2, 2, 3,3, 4, 4, 5, 1, 6]
+
+# for i in  list1:
+#     if list1.count(i) == 1:
+#         print(i)
+
+# list1=[1,2,3,4,5]
+# list2=[6,7,8,9,0,3,5,4]
+# for i in list1:
+#     for j in list2:
+#         if i == j:
+#             print(i)
+
+
+
+
+# list1=[5,3,6,7,3,1]
+# for i in range (len(list1)):
+#      if list1.count(list1[i])>1:
+#          list1[i]=0
+# print(list1)
+
+
+
+
+
