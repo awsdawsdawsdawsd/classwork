@@ -1,52 +1,49 @@
-# classwork
- a=int(input("введите число"))
-if a>=0:
-     print("число положительное:")
- elif a<0:
-     print("число отрицательное:")
+# list1=[2,6,4,3,6,8]
+# for i in range(5,-1,-1):
+#     print(list1[i])
 
-     a=int(input("введите свой возраст:"))
- if a<0 or a>120:
-     print("возраст не коректен")
- else:
-     print("возраст коректен")
-
-     a = int(input("Введите первое число: "))
-b = int(input("Введите второе число: "))
- if a > b:
-     print("требуется нормализация")
- for i in range(a, b + 1):
-     if i % 2 != 0:
-         print(i, end=" ")
-
-         
-hours=int(input("введите часы:"))
-minutes=int(input(("введите минуты")))
- seconds=int(input("введите секунды"))
- if hours<=0 or hours>24 and  minutes<=0 or minutes>60 and seconds<=0 or seconds>60:
-     print("число некоректно")
- else:
-     print(hours,":",minutes,":",seconds)
-
-
-a=int(input("введите число"))
-b=int(input("введите число"))
- if a>b:
-     print(a)
- else:
-     print(b)
+# summa=0
+# for i in list1:
+#     if i%2:
+#         summa+=1
+# print(summa)
 
 
 
-     a=int(input("введите число"))
- if a %5==0:
-     print("число кратно ")
- else:
-     print("число не кратно")
+# summa=0
+# for i in list1:
+#     summa+=i
+# print(summa)
 
 
-     a=(input("введите название планеты:"))
- if a==("земля") or a==("Земля"):
-     print("привет землянин")
- else:
-     print("привет инопланетянин")
+# list1=[3,5,3,7,2]
+# _min=int(input())
+# _max=int(input())
+# if _min>_max:
+#      _min,_max=_max,_min
+#      for i in list1:
+# if _min<=i<=_max:
+#print(i)
+
+
+# list1=[4,5,23,7,8]
+# def change_chet(_list1):
+#     for i in range(len(_list1)):
+#         if list1[i]//2==0:
+#             _list1[i]=0
+#
+#
+# print(list1)
+# change_chet(list1)
+# print(list1)
+# list1=[5,3,7,42,4]
+# def zamena(a,b):
+#   if a>b:
+#       print(a*0)
+#   else:
+#       print(b*0)
+# 
+# a=5
+# b=9
+# print(a,b)
+# zamena(a,b)
