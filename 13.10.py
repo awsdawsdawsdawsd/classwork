@@ -92,5 +92,22 @@
 
 
 
+# звезды
+
+# n=int(input("введите стороны квадрата"))
+# for i in range(n):
+#     for j in range(n,i,-1):
+#      print("*",end=" ")
+#     print()
+
+
+
+# students=[
+#  [60,77,80,90],
+#  [60,55,56,70],
+#  [78,89,97,87]
+# ]
+# # for i in range(0,3):
+# #  print(students[i][1])
 
 
